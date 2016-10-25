@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title> game2048 </title>
+  <meta charset="utf-8"/>
+  <style></style>
+  <link rel="stylesheet" type="text/css" href="2048.css">
+  <script src="2048.js"></script>
+  <script src="animation.js"></script>
+ </head>
+
+ <body>
+    <div id="scores">
+		<span id="score"></span>
+		<span id="top"></span>
+	</div>
+	<br>
+    <div id="gameOver">
+		<div><!-- 背景 --></div>
+		<p><!-- 前景框 -->
+			Gameover！<br>
+			Score:<span id="finalScore"></span><br>
+			<a class="buttom" onclick="game.start()">Try again!</a>
+		</p>
+    </div>
+    <div id="gridPanel">
+    </div>
+ </body>
+</html>
